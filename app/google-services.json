@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "32056003066",
+    "firebase_url": "https://exampleproject-63287.firebaseio.com",
+    "project_id": "exampleproject-63287",
+    "storage_bucket": "exampleproject-63287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32056003066:android:1e7bfe4431b60af8",
+        "android_client_info": {
+          "package_name": "com.example.amit.cuhacks3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32056003066-ava7f60mbiv5drdo6ocinan1l4dpebi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXGCKP-U2nOJi2GlY1NxXzybQhveLoA9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
