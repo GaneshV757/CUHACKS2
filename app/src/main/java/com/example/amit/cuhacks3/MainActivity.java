@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onNothingSelected(AdapterView<?> adapterView) {}
                 });
-
+        final Bundle bundle = new Bundle();
 
         introduction = (TextView)findViewById(R.id.introduction);
         //Typeface font = new Typeface(getAssets(), "@res/");
@@ -80,11 +80,13 @@ public class MainActivity extends AppCompatActivity {
                             System.out.println("Hi");
                             if(destinationLocationString == null) {
                                 Intent i = new Intent();
-                                i.putExtra("Transport", Integer.parseInt(distanceEnteredString));
+                                bundle.putString("Transport", distanceEnteredString);
+                                i.putExtras(bundle);
                                 startActivity(i);
                             } else if(distanceEnteredString == null) {
                                 Intent i = new Intent();
-                                i.putExtra("Destination", destinationLocationString);
+                                bundle.putString("Destination", destinationLocationString);
+                                i.putExtras(bundle);
                                 startActivity(i);
                             } else {
                                 new AlertDialog.Builder(getApplicationContext())
